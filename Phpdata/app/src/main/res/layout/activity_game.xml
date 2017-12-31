@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.rhshukla.phpdata.Game">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="133dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="re"
+        android:text="Play Again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main"
+        app:layout_constraintVertical_bias="0.325" />
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlHardcoded">
+
+        <LinearLayout
+            android:id="@+id/lineo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rzcz"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="rzcz"
+                android:tag="0"
+                app:srcCompat="@drawable/empty"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/rzco"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:contentDescription=""
+                android:onClick="rzco"
+                android:tag="1"
+                app:srcCompat="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/rzct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="rzct"
+                android:tag="2"
+                app:srcCompat="@drawable/empty" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rocz"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="rocz"
+                android:tag="3"
+                app:srcCompat="@drawable/empty"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:id="@+id/roco"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:contentDescription=""
+                android:onClick="roco"
+                android:tag="4"
+                app:srcCompat="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/roct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="roct"
+                android:tag="5"
+                app:srcCompat="@drawable/empty" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lineth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rtcz"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1.82"
+                android:contentDescription=""
+                android:onClick="rtcz"
+                android:tag="6"
+                app:srcCompat="@drawable/empty"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:id="@+id/rtco"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1.60"
+                android:onClick="rtco"
+                android:tag="7"
+                app:srcCompat="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/rtct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1.21"
+                android:onClick="rtct"
+                android:tag="8"
+                app:srcCompat="@drawable/empty" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/point"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="add"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addpoint"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:text="add Point"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/point"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

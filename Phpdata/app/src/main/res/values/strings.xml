@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Phpdata</string>
+    <string name="register">Register</string>
+    <string name="user_name">User Name</string>
+    <string name="emaiil">Emaiil</string>
+    <string name="password">password</string>
+    <string name="admin">Admin</string>
+    <string name="Signup">SignUp</string>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ShopVilla</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_address">Address</string>
+    <string name="address">Address :</string>
+    <string name="sumul_dairy_road">Sumul dairy road,</string>
+    <string name="_201_202_parth_appartment">201,202/parth appartment,</string>
+    <string name="_8238209374">8238209374</string>
+    <string name="mobile_no">Mobile No:</string>
+    <string name="rudraksh_shukla">Rudraksh Shukla</string>
+    <string name="balance_rs_500">Balance : Rs.500</string>
+    <string name="rhshukla_98_com">rhshukla@98.com</string>
+    <string name="surat_395004">Surat-395004</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_rateus">Rateus</string>
+    <string name="title_activity_aboutus">aboutus</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_offers">offers</string>
+    <string name="title_activity_yourcart">yourcart</string>
+    <string name="name">Name</string>
+    <string name="price">price</string>
+    <string name="rating">Rating</string>
+    <string name="action_location_found" />
+    <string name="action_search" />
+    <string name="search_hint" />
+    <string name="search_title" />
+    <string name="GPSAlertDialogMessage" />
+    <string name="GPSAlertDialogTitle" />
+    <string name="cancel" />
+    <string name="no_location_detected" />
+
+
+</resources>
