@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textq" type="id" />
+    <item name="auther" type="id" />
+    <item name="card" type="id" />
+</resources>

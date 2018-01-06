@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rhshukla.port1.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="170dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+
+
+
+        app:cardBackgroundColor="@color/colorWebsiteTab"
+        app:cardElevation="1dp"
+        tools:ignore="MissingConstraint">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/armata"
+                android:paddingTop="8dp"
+                android:text="Rudraksh Shukla"
+
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/profile"
+                app:civ_border_color="@color/cardview_light_background"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/profe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name"
+                android:paddingTop="5dp"
+                android:fontFamily="@font/abhaya_libre"
+                android:text="Android Devloper"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="140dp"
+
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp"
+        android:id="@+id/cardView2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/GetInTouch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get In Touch"
+            android:textColor="@color/colorWebsiteTab"
+
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+
+            android:drawableBottom="@android:drawable/ic_menu_call"/>
+         </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+        android:layout_below="@+id/cardView2"
+        android:layout_centerHorizontal="true">
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablay"
+            android:background="@color/colorPageTab">
+
+        </android.support.design.widget.TabLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewpager"
+            android:layout_marginTop="45dp"></android.support.v4.view.ViewPager>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

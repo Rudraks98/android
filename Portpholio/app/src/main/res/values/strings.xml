@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="self"> Hello,My Name is Rudraksh Shukla.
+        I am goal oriented student who believes learning is more than reading it\'s actually helping the society.
+        My interests include exploring world of technology and learning them.
+        i am always eager to accept new challenges.
+        .I believe, "As long as you live,keep learning how to live."</string>
+    <string name="skill">*Android "\n"*Java "\n"*Javascript "\n"*Php "\n"*Web-Services</string>
+    <string name="work">*Shopvilla "\n"*NearBy "\n"*Firebase dataapp "\n"*realtime database app "\n"*Sanklep App</string>
+</resources>
